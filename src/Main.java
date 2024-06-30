@@ -4,7 +4,7 @@ public class Main {
 
         System.out.println("Задача 1");
         int age = 17;
-        if (age >= 18){
+        if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
         } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Задача 2");
          int airTemperature = 15;
-        if (airTemperature < 5){
+        if (airTemperature < 5) {
             System.out.println("На улице " + airTemperature + " градусов, сегодня холодно, нужно надеть шапку.");
         } else {
             System.out.println("На улице " + airTemperature + " градусов, cегодня тепло, можно идти без шапки");
@@ -28,16 +28,14 @@ public class Main {
 
         System.out.println("Задача 4");
         int agePerson = 15;
-        if (agePerson>=2 && agePerson<=6) {
+        if (agePerson >= 2 && agePerson <= 6) {
             System.out.println("Если возраст человека равен" + agePerson + ", то ему нужно ходить в детский сад.");
-        } else if (agePerson>=7 && agePerson<=17) {
+        } else if (agePerson >= 7 && agePerson <= 17) {
             System.out.println("Если возраст человека равен" + agePerson + ", то ему нужно ходить в школу.");
-        } else if (agePerson >= 18 && agePerson<=24) {
-            System.out.println("Если возраст человека равен" + agePerson + ", то его место в университете");
+        } else if (agePerson >= 18 && agePerson <= 24) {
+            System.out.println("Если возраст человека равен" + agePerson + ", то его место в университете.");
         } else if (agePerson > 24) {
-            System.out.println("Если возраст человека равен" + agePerson + ", то ему пора ходить на работу");
-        } else {
-            System.out.println("Сидит дома с мамой.");
+            System.out.println("Если возраст человека равен" + agePerson + ", то ему пора ходить на работу.");
         }
 
         System.out.println("Задача 5");
@@ -46,7 +44,7 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то он не может кататться на аттракционе.");
         } else if (ageChild < 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
-        } else if (ageChild > 14) {
+        } else if (ageChild >= 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься без сопровождения взрослого.");
         }
 
@@ -79,15 +77,15 @@ public class Main {
         }
 
         System.out.println("Задача 7 (2й способ с разбора дз)");
-        if (one == two && two == three){
+        if (one == two && two == three) {
             System.out.println("Числа равны.");
         } else {
             int max = one;
-            if (two>max) {
+            if (two > max) {
                 max = two;
             }
-            if (three>max){
-                max=three;
+            if (three > max) {
+                max = three;
             }
                 System.out.println("Число " + max + " наибольшее.");
             }
